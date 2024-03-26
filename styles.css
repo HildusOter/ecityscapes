@@ -1,7 +1,7 @@
 .header-image {
-  background-image: url('Troll.jpg');
+  background-image: url('Assets/Images/Troll.jpg');
   background-size: cover; 
-  height: 300px; 
+  height: 400px; 
   margin-top: 20px; 
 }
 
