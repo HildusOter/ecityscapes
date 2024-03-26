@@ -82,10 +82,10 @@ main {
 
 .box p {
   margin-bottom: 0;
-  font-family: "Bebas Neue", sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .box img {
   width: 100%; /* Make image responsive within the box */
-  border-radius: 10px; /* Add rounded corners to the image */
+  border-radius: 10px; 
 }
