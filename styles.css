@@ -92,5 +92,10 @@
   border-radius: 10px;
   /* Remove background-color if not needed */
   background-color: transparent; 
-  /* Update image path to pipes.jpg */
-  background-image: url('Assets/Images/pipes.jpg'); 
+  background-image: url('Assets/Images/pipes.jpg');
+}
+
+.video-container {
+  width: calc(49% - 20px); /* Set width of the video container (50% minus margins) */
+  margin: 20px 0; /* Add margin around the video container */
+}
