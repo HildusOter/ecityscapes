@@ -1,38 +1,40 @@
-.header-image {
+.header {
+  position: relative;
   background-image: url('Assets/Images/Troll.jpg');
   background-size: cover; 
   height: 400px; 
-  margin-top: 20px;
-  position: relative; 
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-header-text {
-  position: absolute;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+.header-text {
   text-align: center;
 }
 
-
-
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
-  color: #5D5A5A; 
+  color: #5D5A5A;
   margin: 0;
 }
 
+/* CSS for navigation */
 .nav {
-  margin-top: 20px;
+  position: absolute; /* Position the navigation bar */
+  top: 10px; /* Adjust the top position as needed */
+  width: 100%; 
+  z-index: 1;
   text-align: center; 
 }
 
 .nav ul {
   list-style-type: none;
   padding: 0;
-  display: inline-flex; 
+  display: inline-flex; /* Use inline-flex to center the list horizontally */
 }
 
 .nav ul li {
@@ -54,5 +56,3 @@ header-text {
 .nav ul li a:hover {
   background-color: #74AFB8;
 }
-
-/* use colour palette created fith five main colours*/
