@@ -77,10 +77,12 @@ main {
 .box h3 {
   margin-top: 0;
   font-family: "Bebas Neue", sans-serif;
+  color: #74AFB8;
 }
 
 .box p {
   margin-bottom: 0;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .box img {
