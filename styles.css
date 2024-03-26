@@ -6,13 +6,13 @@
 
 .nav {
   margin-top: 20px;
+  text-align: center; /* Center the navigation */
 }
 
 .nav ul {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  justify-content: center;
+  display: inline-flex; /* Use inline-flex to center the list horizontally */
 }
 
 .nav ul li {
@@ -34,24 +34,5 @@
 .nav ul li a:hover {
   background-color: #74AFB8;
 }
-
-.header{
-  background-color: #7DB18F;
-  padding-bottom: 20px;
-  border: 1px solid ;
-  border-color: #5D5A5A;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) ;
-}
-.header h1{
-  color: #5D5A5A;
-   
-}
-
-.header h2{
-  color: #5D5A5A
-}
-
-
-
 
 /* use colour palette created fith five main colours*/
