@@ -34,7 +34,7 @@
 .nav ul {
   list-style-type: none;
   padding: 0;
-  display: inline-flex; /* Use inline-flex to center the list horizontally */
+  display: inline-flex;
 }
 
 .nav ul li {
