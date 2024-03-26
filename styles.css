@@ -4,6 +4,37 @@
   font-style: normal;
 }
 
+.nav {
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin-right: 10px;
+}
+
+.nav ul li:last-child {
+  margin-right: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #5D5A5A;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.nav ul li a:hover {
+  background-color: #74AFB8;
+}
+
 .header{
   background-color: #7DB18F;
   padding-bottom: 20px;
@@ -20,9 +51,7 @@
   color: #5D5A5A
 }
 
-nav {
-  margin-top: 20px;
-}
+
 
 
 /* use colour palette created fith five main colours*/
