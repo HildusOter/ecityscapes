@@ -57,20 +57,22 @@
   background-color: #74AFB8;
 }
 
-main {
+.content {
   display: flex;
   flex-wrap: wrap; /* Allow boxes to wrap to the next line if needed */
-  justify-content: space-around; /* Horizontally space the boxes */
+  justify-content: space-between; /* Horizontally space the boxes */
+  flex-direction: row;
 }
 
 /* CSS for box */
 .box {
-  width: calc(50% - 20px); /* Set width of the box (50% minus margins) */
-  margin: 20px; /* Add margin around the boxes */
+  width: calc(49% - 20px); /* Set width of the box (50% minus margins) */
+  margin: 20px 0; /* Add margin around the boxes */
   padding: 20px; /* Add padding to the box */
   border-radius: 10px;
   background-color: #EDEDED; 
-  box-shadow: 0 4px 8px rgba(174, 52, 52, 0.1); 
+  box-shadow: 0 4px 8px rgba(174, 52, 52, 0.1);
+  box-sizing: border-box; 
 }
 
 /* CSS for box contents (h3, p, img, etc.) */
@@ -82,10 +84,13 @@ main {
 
 .box p {
   margin-bottom: 0;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .box img {
   width: 100%; /* Make image responsive within the box */
-  border-radius: 10px; 
-}
+  border-radius: 10px;
+  /* Remove background-color if not needed */
+  background-color: transparent; 
+  /* Update image path to pipes.jpg */
+  background-image: url('Assets/Images/pipes.jpg'); 
