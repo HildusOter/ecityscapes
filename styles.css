@@ -56,3 +56,34 @@
 .nav ul li a:hover {
   background-color: #74AFB8;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line if needed */
+  justify-content: space-around; /* Horizontally space the boxes */
+}
+
+/* CSS for box */
+.box {
+  width: calc(50% - 20px); /* Set width of the box (50% minus margins) */
+  margin: 20px; /* Add margin around the boxes */
+  padding: 20px; /* Add padding to the box */
+  border-radius: 10px;
+  background-color: #EDEDED; 
+  box-shadow: 0 4px 8px rgba(174, 52, 52, 0.1); 
+}
+
+/* CSS for box contents (h3, p, img, etc.) */
+.box h3 {
+  margin-top: 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+.box img {
+  width: 100%; /* Make image responsive within the box */
+  border-radius: 10px; /* Add rounded corners to the image */
+}
