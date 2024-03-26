@@ -1,8 +1,8 @@
 .header-image {
   background-image: url('Troll.jpeg');
-  background-size: cover; /* Cover the entire header with the image */
-  height: 300px; /* Set the height of the header image */
-  margin-top: 20px; /* Add spacing between the navigation and the image */
+  background-size: cover; 
+  height: 300px; 
+  margin-top: 20px; 
 }
 
 .bebas-neue-regular {
